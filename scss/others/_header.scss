@@ -1,0 +1,50 @@
+header{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    background-image: url(../img/burguers/restaurante.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    margin: 20px 16px;
+}
+
+.menu .navbar ul li a{
+    padding: 30px;
+    font-size: 20px;
+    color: var(--color-text-terciary);
+}
+
+.logo img{
+    width: 200px;
+    position: static;
+}
+
+.container{
+    color: var(--color-text-terciary);
+}
+
+.container h1{
+    font-size: 100px;
+    font-weight: 800;
+    height: 100px;
+    text-align: left;
+}

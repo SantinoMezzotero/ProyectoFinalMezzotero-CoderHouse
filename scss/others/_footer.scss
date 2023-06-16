@@ -1,0 +1,78 @@
+footer{
+  background: #fcd04c;
+  font-family:Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  color: black;
+  position: relative;
+  width: 100px;
+  height: 550px;
+}
+
+.suscript {
+  padding: 100px 0;
+  background-color: #fcd04c;
+}
+
+.suscript-content {
+  display: flex;
+  align-items: center;
+}
+
+.suscript-1 h4 {
+  font-size: 30px;
+  color: #f10a0a;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: 'Asap', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.suscript-1 p {
+  color: #c93636;
+}
+
+.suscript-2 {
+  width: 50%;
+}
+
+.suscript-3 {
+  width: 50%;
+  
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 450px;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  margin-right: 10px;
+}
+
+.btn-2 {
+  width: 150px;
+  background-color: #c91b1b;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn-2:hover{
+  color: var(--color-text-secundary);
+  background-color: #fcd04c;
+}
+
+.fa-brands{
+  padding: 0 5px;
+  font-size: 30px;
+}
+.nav-link{
+  text-align: left;
+}
+
+
+
+  

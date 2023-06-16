@@ -1,0 +1,88 @@
+.container-burguer-primary{
+    padding-top: 100px;
+}
+
+.burguer-primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.text-burguer-primary{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text-burguer-primary h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--color-text-terciary);
+    font-family: 'Asap', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.container-box-burguerprimary{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-burguer-primary{
+    max-width: 500px;
+    padding: 60 px 40px;
+    border: 1px solid rgb(204, 203, 203);
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 250ms;
+}
+
+.box-burguer-primary:hover{
+    border: 1px solid transparent;
+    box-shadow: rgb(153, 135, 53);
+}
+
+.box-burguer-primary h2{
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box-burguer-primary p{
+    margin-top: 20px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+.col-sm .img-burguer {
+    width: 90%;
+    }
+    
+    .col-sm .col-information,
+    .col-sm .col-img-burguer {
+    padding: 10px 10px;
+    color: white;
+    }
+    .col-sm .img-burguer {
+    padding: 10px;
+    height: 100%;
+    }
+
+    .btn-4 {
+        width: 150px;
+        background-color: #c91b1b;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 20px;
+      }
+      
+      .btn-4:hover{
+        color: var(black);
+        background-color: #fcd04c;
+      }
+      
+    

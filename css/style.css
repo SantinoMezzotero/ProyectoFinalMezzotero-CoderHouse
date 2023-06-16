@@ -1,0 +1,503 @@
+:root {
+  --color-text-primary: #af912ccc;
+  --color-text-secundary: #c45b41;
+  --color-text-terciary: #101e20;
+  --main-color-primary: #e4e12ccc;
+  --main-color-secundary: #95a9b9cc;
+}
+
+header {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Tilt Prism", cursive;
+  background-image: url(../img/burguers/restaurante.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+  margin: 20px 16px;
+}
+
+.menu .navbar ul li a {
+  padding: 30px;
+  font-size: 20px;
+  color: var(--color-text-terciary);
+}
+
+.logo img {
+  width: 200px;
+  position: static;
+}
+
+.container {
+  color: var(--color-text-terciary);
+}
+
+.container h1 {
+  font-size: 100px;
+  font-weight: 800;
+  height: 100px;
+  text-align: left;
+}
+
+footer {
+  background: #fcd04c;
+  font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: black;
+  position: relative;
+  width: 100px;
+  height: 550px;
+}
+
+.suscript {
+  padding: 100px 0;
+  background-color: #fcd04c;
+}
+
+.suscript-content {
+  display: flex;
+  align-items: center;
+}
+
+.suscript-1 h4 {
+  font-size: 30px;
+  color: #f10a0a;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: "Asap", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.suscript-1 p {
+  color: #c93636;
+}
+
+.suscript-2 {
+  width: 50%;
+}
+
+.suscript-3 {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 450px;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  margin-right: 10px;
+}
+
+.btn-2 {
+  width: 150px;
+  background-color: #c91b1b;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn-2:hover {
+  color: var(--color-text-secundary);
+  background-color: #fcd04c;
+}
+
+.fa-brands {
+  padding: 0 5px;
+  font-size: 30px;
+}
+
+.nav-link {
+  text-align: left;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #fcd04c;
+}
+
+.general-content {
+  margin: 0 auto;
+  position: relative;
+}
+
+.general-content img {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  min-height: 80vh;
+  height: 1000px;
+  width: 1900px;
+  margin-bottom: 50px;
+}
+
+.general-1 p {
+  font-size: 35px;
+  color: var(--color-text-terciary);
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  padding: 0 250px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .general-container {
+    padding: 30px;
+  }
+  .general-content {
+    display: none;
+  }
+}
+.container-burguer-primary {
+  padding-top: 100px;
+}
+
+.burguer-primary {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.text-burguer-primary {
+  max-width: 800px;
+  margin: auto;
+}
+
+.text-burguer-primary h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--color-text-terciary);
+  font-family: "Asap", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.container-box-burguerprimary {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.box-burguer-primary {
+  max-width: 500px;
+  padding: 60 px 40px;
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 20px;
+  margin: 14px;
+  transition: all 250ms;
+}
+
+.box-burguer-primary:hover {
+  border: 1px solid transparent;
+  box-shadow: rgb(153, 135, 53);
+}
+
+.box-burguer-primary h2 {
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.box-burguer-primary p {
+  margin-top: 20px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 20px;
+}
+
+.col-sm .img-burguer {
+  width: 90%;
+}
+
+.col-sm .col-information,
+.col-sm .col-img-burguer {
+  padding: 10px 10px;
+  color: white;
+}
+
+.col-sm .img-burguer {
+  padding: 10px;
+  height: 100%;
+}
+
+.btn-4 {
+  width: 150px;
+  background-color: #c91b1b;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.btn-4:hover {
+  color: var(black);
+  background-color: #fcd04c;
+}
+
+.content {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Skranji", cursive;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.title span {
+  color: var(--main-color-secundary);
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: var(--main-color-secundary);
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+  grid-column: 1/3;
+}
+
+.contact-form form p {
+  padding: 20px;
+  margin: 0;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 30px;
+  border: none;
+  background: none;
+  outline: 0;
+  color: var(--color-text-terciary);
+  border-bottom: 3px solid #ce0c0c;
+}
+
+.contact-form form button {
+  background: var(--color-text-primary);
+  border: 0;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #ce0c0c;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info {
+  background: var(--main-color-secundary);
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 700px) {
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+.map {
+  grid-area: map;
+}
+
+.general {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.direccion-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.direccion-1 {
+  background-image: url(../img/barrio/buenos\ aires.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  padding: 170px 130px;
+}
+
+.direccion-2 {
+  background-image: url(../img/barrio/cordoba.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  padding: 170px 160px;
+}
+
+.direccion-3 {
+  background-image: url(../img/barrio/rionegro.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  padding: 170px 150px;
+}
+
+h2 {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: var(-color-text-terciary);
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Tilt Prism", cursive;
+}
+
+.txt h3 {
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.txt h4 {
+  font-size: 50px;
+  color: var(-color-text-terciary);
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  background-color: aqua;
+  text-align: right;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.us {
+  padding: 100px 0;
+  background: #fff;
+  position: relative;
+  min-width: 600px;
+}
+
+.us-content {
+  text-align: center;
+}
+
+.us-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: var(--color-text-terciary);
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+}
+
+.txt-p {
+  font-size: 16px;
+  color: var(--color-text-terciary);
+  padding: 0 250px;
+  margin-bottom: 100px;
+}
+
+.us-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.us-1 {
+  padding: 0 25px;
+}
+
+.us-1 img {
+  width: 700px;
+}
+
+.us-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 991px) {
+  .us {
+    padding: 30px;
+  }
+  .us-content h2 {
+    padding: 0;
+  }
+  .txt-p {
+    padding: 0;
+  }
+  .us-group {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .us-img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
